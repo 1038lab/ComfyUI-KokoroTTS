@@ -1,5 +1,5 @@
 [project]
-name = "ComfyUI-KokoroTTS"
+name = "comfyui-kokorotts"
 description = "ComfyUI-KokoroTTS is a powerful text-to-speech node for ComfyUI. It leverages the Kokoro TTS framework to convert text into natural-sounding speech, supporting multiple languages."
 version = "1.0.0"
 license = {file = "LICENSE"}
