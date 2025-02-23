@@ -22,7 +22,8 @@ Then install dependencies:
 ### Method 2: Manual Clone Installation
 ```bash
 cd ComfyUI/custom_nodes
-git clone <repository-url>
+git clone https://github.com/1038lab/ComfyUI-KokoroTTS.git
+
 cd ComfyUI-KokoroTTS
 ./ComfyUI/python_embeded/python -m pip install -r requirements.txt
 ```
