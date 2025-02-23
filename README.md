@@ -2,6 +2,8 @@
 
 ComfyUI-KokoroTTS is a powerful text-to-speech node for ComfyUI. It leverages the Kokoro TTS framework to convert text into natural-sounding speech, supporting multiple languages and voices. The node is easy to integrate and customize, making it perfect for various applications.
 
+![KokoroTTS](https://github.com/user-attachments/assets/d2890e2a-2f37-46bf-9aaf-632a0d0f868d)
+
 ## Features
 
 ### Kokoro TTS Node
