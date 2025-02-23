@@ -1,0 +1,25 @@
+# Base requirements for Kokoro TTS
+kokoro>=0.3.4
+torch>=1.7.0
+torchaudio>=0.7.0
+numpy>=1.19.0
+soundfile>=0.10.3
+huggingface_hub
+requests
+
+# Language support (remove # to enable)
+
+# Required for Japanese voices (jf_*, jm_*)
+#misaki[ja]>=0.7.0
+
+# Required for Chinese voices (zf_*)
+#misaki[zh]==0.5.9
+misaki[zh]>=0.7.0
+ordered_set
+
+# System requirements:
+# For European languages (French, Spanish, Hindi, Italian, Portuguese),
+# you need to install espeak-ng on your system:
+# - Windows: Download from https://github.com/espeak-ng/espeak-ng/releases
+# - Linux: sudo apt-get install espeak-ng
+# - MacOS: brew install espeak
