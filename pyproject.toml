@@ -1,0 +1,23 @@
+[project]
+name = "ComfyUI-KokoroTTS"
+description = "ComfyUI-KokoroTTS is a powerful text-to-speech node for ComfyUI. It leverages the Kokoro TTS framework to convert text into natural-sounding speech, supporting multiple languages."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = [
+    "kokoro>=0.3.4",
+    "torch>=1.7.0",
+    "torchaudio>=0.7.0",
+    "numpy>=1.19.0",
+    "soundfile>=0.10.3",
+    "huggingface_hub",
+    "requests"
+]
+
+[project.urls]
+Repository = "https://github.com/1038lab/ComfyUI-KokoroTTS"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "ailab"
+DisplayName = "ComfyUI-KokoroTTS"
+Icon = ""
