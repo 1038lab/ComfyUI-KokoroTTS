@@ -4,8 +4,12 @@ ComfyUI-KokoroTTS is a powerful text-to-speech node for ComfyUI. It leverages th
 
 ![KokoroTTS](https://github.com/user-attachments/assets/d2890e2a-2f37-46bf-9aaf-632a0d0f868d)
 
-## Features
+## Updates
+(2025/02/24) V1.1.0 Added audio saving functionality [update.md](https://github.com/1038lab/ComfyUI-KokoroTTS/blob/main/update.md#v110-20250224)
+  
+![image](https://github.com/user-attachments/assets/f9629581-54fc-4fdf-9711-f4924796ba50)
 
+## Features
 ### Kokoro TTS Node
 - **Multiple languages and voices support**
 - **Adjustable speech rate and volume**
